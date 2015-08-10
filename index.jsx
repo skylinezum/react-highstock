@@ -1,1 +1,1 @@
-module.exports = require('./src/Highcharts.jsx');
+module.exports = require('./src/Highstock.jsx');
