@@ -35,7 +35,7 @@ module.exports = React.createClass({
         this.renderChart();
     },
     render: function () {
-        return <div className="chart" ref="chart" />
+        return React.createElement('div', {className: 'chart', ref:'chart'});
     }
 });
 
