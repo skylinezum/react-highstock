@@ -1,31 +1,32 @@
 {
-  "name": "react-highcharts",
-  "version": "1.0.2",
-  "description": "React wrapper for highcharts",
+  "name": "react-highstock",
+  "version": "1.0.0",
+  "description": "React wrapper for highstock",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Kirill Cherkashin",
+  "author": "Ken Fehling",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/kirjs/react-highcharts"
+    "url": "https://github.com/kenfehling/react-highstock"
   },
   "peerDependencies": {
     "react": "*"
   },
-  "bugs": "https://github.com/kirjs/react-highcharts/issues",
+  "bugs": "https://github.com/kenfehling/react-highstock/issues",
   "keywords": [
     "chart",
     "react",
     "highcharts",
+    "highstock",
     "graph"
   ],
   "devDependencies": {
     "exports-loader": "^0.6.2",
     "webpack": "^1.5.3",
     "jsx-loader": "^0.12.2",
-    "Highcharts": "git://github.com/highslide-software/highcharts.com"
+    "highstock-browserify": "^1.0.2"
   }
 }
