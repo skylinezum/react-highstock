@@ -2,7 +2,7 @@
   "name": "react-highstock",
   "version": "1.0.0",
   "description": "React wrapper for highstock",
-  "main": "index.jsx”,
+  "main": "index.jsx",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
