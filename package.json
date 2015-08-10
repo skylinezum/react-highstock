@@ -1,6 +1,6 @@
 {
   "name": "react-highstock",
-  "version": “1.0.1”,
+  "version": "1.0.1",
   "description": "React wrapper for highstock",
   "main": "index.js",
   "scripts": {
