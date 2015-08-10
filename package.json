@@ -1,6 +1,6 @@
 {
   "name": "react-highstock",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "React wrapper for highstock",
   "main": "index.js",
   "scripts": {
@@ -24,9 +24,6 @@
     "graph"
   ],
   "devDependencies": {
-    "exports-loader": "^0.6.2",
-    "webpack": "^1.5.3",
-    "jsx-loader": "^0.12.2",
     "highstock-browserify": "^1.0.2"
   }
 }
