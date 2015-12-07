@@ -1,6 +1,8 @@
 react-highstock
 ================
-Highstock component for [React](https://facebook.github.io/react/)
+[Highstock](http://www.highcharts.com/products/highstock)
+component for
+[React](https://facebook.github.io/react/)
 
 ## Installation
 ```bash
