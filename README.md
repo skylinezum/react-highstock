@@ -1,6 +1,6 @@
 react-highstock
 ================
-Highstock component for react.
+Highstock component for [React](https://facebook.github.io/react/)
 
 ## Installation
 ```bash
