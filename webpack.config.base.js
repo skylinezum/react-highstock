@@ -19,8 +19,8 @@ module.exports = {
         extensions: ['', '.js', '.jsx']
     },
     externals: {
-        react: 'React',
-        'react/addons': 'React',
+        react: 'react',
+        'react/addons': 'react',
         'highstock-browserify': 'Highstock'
     },
     node: {Buffer: false}
