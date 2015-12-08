@@ -7,8 +7,8 @@
     "test": "echo \"No tests\"",
     "clean": "rimraf lib",
     "lint": "eslint src test",
-    "build:umd": "webpack src/index.js dist/react-highstock.js --config webpack.config.development.js",
-    "build:umd:min": "webpack src/index.js dist/react-highstock.min.js --config webpack.config.production.js",
+    "build:umd": "webpack index.js dist/react-highstock.js --config webpack.config.development.js",
+    "build:umd:min": "webpack index.js dist/react-highstock.min.js --config webpack.config.production.js",
     "build": "npm run build:umd && npm run build:umd:min",
     "prepublish": "npm run test && npm run build"
   },
