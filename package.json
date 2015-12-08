@@ -1,13 +1,16 @@
 {
   "name": "react-highstock",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "React wrapper for highstock",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "echo \"No tests\"",
+    "clean": "rimraf lib",
+    "lint": "eslint src test",
     "build:umd": "webpack src/index.js dist/react-highstock.js --config webpack.config.development.js",
     "build:umd:min": "webpack src/index.js dist/react-highstock.min.js --config webpack.config.production.js",
-    "build": "npm run build:umd && npm run build:umd:min"
+    "build": "npm run build:umd && npm run build:umd:min",
+    "prepublish": "npm run test && npm run build"
   },
   "author": "Ken Fehling",
   "license": "MIT",
