@@ -1,13 +1,13 @@
 (function webpackUniversalModuleDefinition(root, factory) {
 	if(typeof exports === 'object' && typeof module === 'object')
-		module.exports = factory(require("highstock"), require("react"), require("react/addons"));
+		module.exports = factory(require("React"), require("Highstock"));
 	else if(typeof define === 'function' && define.amd)
-		define(["highstock", "react", "react/addons"], factory);
+		define(["React", "Highstock"], factory);
 	else if(typeof exports === 'object')
-		exports["ReactHighstock"] = factory(require("highstock"), require("react"), require("react/addons"));
+		exports["ReactHighstock"] = factory(require("React"), require("Highstock"));
 	else
-		root["ReactHighstock"] = factory(root["Highstock"], root["React"], root["React"]);
-})(this, function(__WEBPACK_EXTERNAL_MODULE_1__, __WEBPACK_EXTERNAL_MODULE_2__, __WEBPACK_EXTERNAL_MODULE_3__) {
+		root["ReactHighstock"] = factory(root["React"], root["Highstock"]);
+})(this, function(__WEBPACK_EXTERNAL_MODULE_1__, __WEBPACK_EXTERNAL_MODULE_2__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -56,9 +56,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	'use strict';
 
-	var Highstock = __webpack_require__(1);
-	var React = __webpack_require__(2);
-	var update = __webpack_require__(3).addons.update;
+	var Highstock = __webpack_require__(2);
+	var React = __webpack_require__(1);
+	var update = __webpack_require__(1).addons.update;
 	module.exports = React.createClass({
 	    displayName: 'Highstock',
 
@@ -110,12 +110,6 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ function(module, exports) {
 
 	module.exports = __WEBPACK_EXTERNAL_MODULE_2__;
-
-/***/ },
-/* 3 */
-/***/ function(module, exports) {
-
-	module.exports = __WEBPACK_EXTERNAL_MODULE_3__;
 
 /***/ }
 /******/ ])
