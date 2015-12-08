@@ -1,6 +1,6 @@
 var Highstock = require('highstock-browserify');
-var React = require('react');
-var update = require('react/addons').addons.update;
+var React = require('react/addons');
+var update = React.addons.update;
 module.exports = React.createClass({
     displayName: 'Highstock',
 

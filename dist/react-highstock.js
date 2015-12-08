@@ -1,12 +1,12 @@
 (function webpackUniversalModuleDefinition(root, factory) {
 	if(typeof exports === 'object' && typeof module === 'object')
-		module.exports = factory(require("react"), require("Highstock"));
+		module.exports = factory(require("Highstock"), require("react"));
 	else if(typeof define === 'function' && define.amd)
-		define(["react", "Highstock"], factory);
+		define(["Highstock", "react"], factory);
 	else if(typeof exports === 'object')
-		exports["ReactHighstock"] = factory(require("react"), require("Highstock"));
+		exports["ReactHighstock"] = factory(require("Highstock"), require("react"));
 	else
-		root["ReactHighstock"] = factory(root["react"], root["Highstock"]);
+		root["ReactHighstock"] = factory(root["Highstock"], root["react"]);
 })(this, function(__WEBPACK_EXTERNAL_MODULE_1__, __WEBPACK_EXTERNAL_MODULE_2__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
@@ -56,9 +56,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	'use strict';
 
-	var Highstock = __webpack_require__(2);
-	var React = __webpack_require__(1);
-	var update = __webpack_require__(1).addons.update;
+	var Highstock = __webpack_require__(1);
+	var React = __webpack_require__(2);
+	var update = React.addons.update;
 	module.exports = React.createClass({
 	    displayName: 'Highstock',
 
