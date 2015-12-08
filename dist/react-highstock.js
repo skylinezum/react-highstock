@@ -1,12 +1,12 @@
 (function webpackUniversalModuleDefinition(root, factory) {
 	if(typeof exports === 'object' && typeof module === 'object')
-		module.exports = factory(require("React"), require("Highstock"));
+		module.exports = factory(require("react"), require("Highstock"));
 	else if(typeof define === 'function' && define.amd)
-		define(["React", "Highstock"], factory);
+		define(["react", "Highstock"], factory);
 	else if(typeof exports === 'object')
-		exports["ReactHighstock"] = factory(require("React"), require("Highstock"));
+		exports["ReactHighstock"] = factory(require("react"), require("Highstock"));
 	else
-		root["ReactHighstock"] = factory(root["React"], root["Highstock"]);
+		root["ReactHighstock"] = factory(root["react"], root["Highstock"]);
 })(this, function(__WEBPACK_EXTERNAL_MODULE_1__, __WEBPACK_EXTERNAL_MODULE_2__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
