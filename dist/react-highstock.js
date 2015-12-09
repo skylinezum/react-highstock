@@ -60,8 +60,6 @@ return /******/ (function(modules) { // webpackBootstrap
 	var React = __webpack_require__(2);
 	var update = React.addons.update;
 
-	console.log("FOLEY!!!");
-
 	module.exports = React.createClass({
 	    displayName: 'Highstock',
 

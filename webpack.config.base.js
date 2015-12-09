@@ -36,7 +36,7 @@ module.exports = {
             }
         },
         {
-            'highstock-browserify': {
+            'highstock': {
                 root: 'Highstock',
                 commonjs2: 'highstock',
                 commonjs: 'highstock',

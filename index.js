@@ -1,4 +1,4 @@
-var Highstock = require('highstock-browserify');
+var Highstock = require('highstock');
 var React = require('react/addons');
 var update = React.addons.update;
 

@@ -27,7 +27,7 @@
     "graph"
   ],
   "dependencies": {
-    "highstock-browserify": "^1.0.2"
+    "highstock": "git://github.com/highslide-software/highstock-release.git#v2.1.6"
   },
   "devDependencies": {
     "babel": "^5.6.4",
