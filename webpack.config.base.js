@@ -18,10 +18,31 @@ module.exports = {
     resolve: {
         extensions: ['', '.js', '.jsx']
     },
-    externals: {
-        react: 'react/addons',
-        'react/addons': 'react/addons',
-        'highstock-browserify': 'Highstock'
-    },
+    externals: [
+        {
+            'react': {
+                root: 'React',
+                commonjs2: 'react',
+                commonjs: 'react',
+                amd: 'react'
+            }
+        },
+        {
+            'react/addons': {
+                root: 'React',
+                commonjs2: 'react/addons',
+                commonjs: 'react/addons',
+                amd: 'react/addons'
+            }
+        },
+        {
+            'highstock-browserify': {
+                root: 'Highstock',
+                commonjs2: 'highstock',
+                commonjs: 'highstock',
+                amd: 'highstock'
+            }
+        }
+    ],
     node: {Buffer: false}
 };

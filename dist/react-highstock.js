@@ -1,12 +1,12 @@
 (function webpackUniversalModuleDefinition(root, factory) {
 	if(typeof exports === 'object' && typeof module === 'object')
-		module.exports = factory(require("Highstock"), require("react/addons"));
+		module.exports = factory(require("highstock"), require("react/addons"));
 	else if(typeof define === 'function' && define.amd)
-		define(["Highstock", "react/addons"], factory);
+		define(["highstock", "react/addons"], factory);
 	else if(typeof exports === 'object')
-		exports["ReactHighstock"] = factory(require("Highstock"), require("react/addons"));
+		exports["ReactHighstock"] = factory(require("highstock"), require("react/addons"));
 	else
-		root["ReactHighstock"] = factory(root["Highstock"], root["react/addons"]);
+		root["ReactHighstock"] = factory(root["Highstock"], root["React"]);
 })(this, function(__WEBPACK_EXTERNAL_MODULE_1__, __WEBPACK_EXTERNAL_MODULE_2__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
@@ -59,6 +59,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	var Highstock = __webpack_require__(1);
 	var React = __webpack_require__(2);
 	var update = React.addons.update;
+
+	console.log("FOLEY!!!");
+
 	module.exports = React.createClass({
 	    displayName: 'Highstock',
 
