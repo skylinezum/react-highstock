@@ -1,6 +1,6 @@
 {
   "name": "react-highstock",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "React wrapper for highstock",
   "main": "index.js",
   "scripts": {
@@ -27,7 +27,7 @@
     "graph"
   ],
   "dependencies": {
-    "highstock": "git://github.com/highslide-software/highstock-release.git#v2.1.6"
+    "highstock": "git://github.com/kenfehling/highstock.git"
   },
   "devDependencies": {
     "babel": "^5.6.4",
