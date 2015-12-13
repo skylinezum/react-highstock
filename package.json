@@ -27,7 +27,7 @@
     "graph"
   ],
   "dependencies": {
-    "highstock": "git://github.com/kenfehling/highstock.git"
+    "highstock": "git://github.com/highcharts/highstock-release.git"
   },
   "devDependencies": {
     "babel": "^5.6.4",
