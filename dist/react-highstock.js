@@ -54,8 +54,6 @@ return /******/ (function(modules) { // webpackBootstrap
 /* 0 */
 /***/ function(module, exports, __webpack_require__) {
 
-	'use strict';
-
 	var Highstock = __webpack_require__(1);
 	var React = __webpack_require__(7);
 	var update = __webpack_require__(2);
@@ -63,7 +61,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = React.createClass({
 	  displayName: 'Highstock',
 
-	  renderChart: function renderChart() {
+	  renderChart: function () {
 	    if (!this.props.config) {
 	      throw new Error('Config has to be specified, for the Highchart component');
 	    }
@@ -80,7 +78,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    this.chart = new Highstock.Chart(config);
 	  },
 
-	  getChart: function getChart() {
+	  getChart: function () {
 	    if (!this.chart) {
 	      throw new Error('getChart() should not be called before the component is mounted');
 	    }
@@ -88,15 +86,15 @@ return /******/ (function(modules) { // webpackBootstrap
 	    return this.chart;
 	  },
 
-	  componentDidMount: function componentDidMount() {
+	  componentDidMount: function () {
 	    this.renderChart();
 	  },
 
-	  componentDidUpdate: function componentDidUpdate() {
+	  componentDidUpdate: function () {
 	    this.renderChart();
 	  },
 
-	  render: function render() {
+	  render: function () {
 	    return React.createElement('div', { className: 'chart', ref: 'chart' });
 	  }
 
