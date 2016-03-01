@@ -27,8 +27,8 @@ module.exports = React.createClass({
   },
 
   shouldComponentUpdate: function (newProps) {
-    if (!this.props.isPureConfig || !(this.props.config === newProps.config)) {
-      this.renderChart(newProps.config)
+    if (!this.props.isPureConfig || this.props.config !== newProps.config) {
+      this.renderChart(newProps.config);
       return true;
     }
 
