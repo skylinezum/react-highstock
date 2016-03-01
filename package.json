@@ -27,8 +27,7 @@
     "graph"
   ],
   "dependencies": {
-    "highstock-release": "^4.2.1",
-    "react-faux-dom": "^2.1.1"
+    "highstock-release": "^4.2.1"
   },
   "devDependencies": {
     "babel": "^6.3.26",
