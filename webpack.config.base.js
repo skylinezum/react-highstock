@@ -19,30 +19,30 @@ module.exports = {
     extensions: ['', '.js', '.jsx'],
   },
   externals: [
-        {
-          react: {
-            root: 'React',
-            commonjs2: 'react',
-            commonjs: 'react',
-            amd: 'react',
-          },
-        },
-        {
-          'react/addons': {
-            root: 'React',
-            commonjs2: 'react/addons',
-            commonjs: 'react/addons',
-            amd: 'react/addons',
-          },
-        },
-        {
-          highstock: {
-            root: 'Highstock',
-            commonjs2: 'highstock',
-            commonjs: 'highstock',
-            amd: 'highstock',
-          },
-        },
-    ],
+    {
+      react: {
+        root: 'React',
+        commonjs2: 'react',
+        commonjs: 'react',
+        amd: 'react',
+      },
+    },
+    {
+      'react/addons': {
+        root: 'React',
+        commonjs2: 'react/addons',
+        commonjs: 'react/addons',
+        amd: 'react/addons',
+      },
+    },
+    {
+      highstock: {
+        root: 'Highstock',
+        commonjs2: 'highstock',
+        commonjs: 'highstock',
+        amd: 'highstock',
+      },
+    },
+  ],
   node: { Buffer: false },
 };
