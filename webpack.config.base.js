@@ -9,9 +9,9 @@ module.exports = {
   module: {
     loaders: [
       {
-        test: /\.js$/,
+        test: /\.(js|jsx)?$/,
+        loaders: ['babel'],
         exclude: /node_modules/,
-        loader: 'babel-loader',
       },
     ],
   },
@@ -44,5 +44,5 @@ module.exports = {
           },
         },
     ],
-  node: {Buffer: false},
+  node: { Buffer: false },
 };
